@@ -36,12 +36,11 @@ export default function Header({}: Props) {
           fgColor="gray"
           bgColor="transparent"
         />
-        <Link href="#contact">
-          <SocialIcon network="email" fgColor="gray" bgColor="transparent" />
+        
+          <SocialIcon network="email" fgColor="gray" bgColor="transparent" url="#contact" />
           <p className="uppercase hidden md:inline-flex text-sm text-gray-600">
             Get in Touch
           </p>
-        </Link>
       </motion.div>
       <motion.div
         initial={{
