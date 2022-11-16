@@ -42,7 +42,7 @@ function Projects({}: Props) {
             /> */}
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className="text-4xl font-semibold text-center">
-                <span className="underline decoration-[#F7AB0A]/50">
+                <span className="underline decoration-[#F7AB0A]/50 pb-0">
                   Personal Website
                 </span>
               </h4>
@@ -145,7 +145,7 @@ function Projects({}: Props) {
           fgColor="gray"
           />
               <p className="text-lg text-center md:text-left ">
-              Built a web scraper in order to retrieve course information data from various official McGill websites to serve users with up-to-date details regarding course prerequisites, descriptions and scheduling. Built as a part of an in progress team project that consists of developing a better short and long term course scheduler for McGill students.
+              Built a web scraper in order to retrieve course information data from various official McGill websites to serve users with up-to-date details regarding course prerequisites, descriptions and scheduling.
               </p>
             </div>
           </div>
@@ -195,7 +195,7 @@ function Projects({}: Props) {
           fgColor="gray"
           />
               <p className="text-lg text-center md:text-left ">
-              Built as part of Morgan Stanley&apos;\s Code to Give Hackathon. Collaborated with a team of 7 people to build a modern and responsive full-stack web application that encourages youth from all around the world to contribute challenges and ideas regarding the general hardships of everyday life.
+              Built as part of Morgan Stanley&apos;s Code to Give Hackathon. Collaborated with a team of 7 people to build a modern and responsive full-stack web application.
               </p>
             </div>
           </div>
