@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Skill from "../components/Skill";
-type Props = {};
+type Props = { images : string[]};
 
-function Skills({}: Props) {
+function Skills({ images }: Props) {
   return (
     <motion.div
       initial={{
@@ -22,22 +22,11 @@ function Skills({}: Props) {
       </h3>
 
       <div className="grid grid-cols-4 gap-5">
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+        {images?.map((img,i) => (
+          <Skill image={img}/>
+
+        ))}
+
       </div>
     </motion.div>
   );
