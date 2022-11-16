@@ -12,7 +12,7 @@ type Props = {
 import { motion } from "framer-motion";
 function ExperienceCard({Title, Company, Company_logo, Technologies, startDate, endDate, description}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#99a2b3] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden ">
+    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] bg-[#99a2b3] p-10 hover:opacity-100 sm:opacity-40 opacity-100 cursor-pointer transition-opacity duration-200 overflow-hidden ">
       <motion.img
         initial={{
           y: -100,
