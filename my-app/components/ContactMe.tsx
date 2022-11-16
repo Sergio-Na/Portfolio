@@ -30,11 +30,11 @@ function ContactMe({}: Props) {
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-gray-500 text-2xl">s@email.com</p>
+            <p className="text-gray-500 text-2xl">sergionajm@gmail.com</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-gray-500 text-2xl">123 dev lane</p>
+            <p className="text-gray-500 text-2xl">Montreal, Qc, Canada</p>
           </div>
         </div>
 
@@ -49,6 +49,8 @@ function ContactMe({}: Props) {
               className="contactInput"
               type="text"
             />
+            </div>
+            <div>
             <input
               {...register("email")}
               placeholder="Email"
