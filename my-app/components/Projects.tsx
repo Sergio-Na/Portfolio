@@ -195,7 +195,7 @@ function Projects({}: Props) {
           fgColor="gray"
           />
               <p className="text-lg text-center md:text-left ">
-              Built as part of Morgan Stanley's Code to Give Hackathon. Collaborated with a team of 7 people to build a modern and responsive full-stack web application that encourages youth from all around the world to contribute challenges and ideas regarding the general hardships of everyday life.
+              Built as part of Morgan Stanley&apos;\s Code to Give Hackathon. Collaborated with a team of 7 people to build a modern and responsive full-stack web application that encourages youth from all around the world to contribute challenges and ideas regarding the general hardships of everyday life.
               </p>
             </div>
           </div>

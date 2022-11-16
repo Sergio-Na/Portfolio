@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="bg-[#FFF7E9] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-orange-300/90">
       <Head>
-        <title>Sergio's portfolio</title>
+        <title>Sergios portfolio</title>
       </Head>
       <Header />
 

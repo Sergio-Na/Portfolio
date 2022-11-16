@@ -42,6 +42,7 @@ function ExperienceCard({Title, Company, Company_logo, Technologies, startDate, 
         <div className="flex space-x-2 my-2">
           {Technologies.map((link,i) => (
             <img
+            key={i}
             className="h-10 w-auto rounded-full"
             src={link}
           />
@@ -52,7 +53,7 @@ function ExperienceCard({Title, Company, Company_logo, Technologies, startDate, 
         </p>
         <ul className="list-disc space-y-4 ml-5 text-lg">
           {description.map((summary_point, i)=> (
-            <li>{summary_point}</li>
+            <li key={i}>{summary_point}</li>
           ))}
         </ul>
       </div>

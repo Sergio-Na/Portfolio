@@ -23,7 +23,7 @@ function Skills({ images }: Props) {
 
       <div className="grid grid-cols-4 gap-5">
         {images?.map((img,i) => (
-          <Skill image={img}/>
+          <Skill key={i} image={img}/>
 
         ))}
 
